@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 006: shadcn/ui + Tailwind CSS v4 による UI 基盤"
+---
+
 # ADR 006: shadcn/ui + Tailwind CSS v4 による UI 基盤
 
 - Status: Accepted

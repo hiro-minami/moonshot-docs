@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 001: フロントエンドへの Feature-Sliced Design (機能別分割) の採用"
+---
+
 # ADR 001: フロントエンドへの Feature-Sliced Design (機能別分割) の採用
 
 - Status: Accepted

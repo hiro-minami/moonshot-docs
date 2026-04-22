@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 010: デザイントークンと CSS 変数を用いたテーマ管理"
+---
+
 # ADR 010: デザイントークンと CSS 変数を用いたテーマ管理
 
 - Status: Accepted

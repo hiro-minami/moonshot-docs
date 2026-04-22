@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 013: 破壊的操作における Undo トーストパターンの採用"
+---
+
 # ADR 013: 破壊的操作における Undo トーストパターンの採用
 
 - Status: Accepted

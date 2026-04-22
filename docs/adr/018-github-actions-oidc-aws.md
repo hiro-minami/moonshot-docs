@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 018: GitHub Actions OIDC による AWS 認証"
+---
+
 # ADR 018: GitHub Actions OIDC による AWS 認証
 
 - Status: Accepted

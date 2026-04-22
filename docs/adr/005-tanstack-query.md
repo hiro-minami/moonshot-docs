@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 005: TanStack Query (v5) による状態管理と楽観的 UI"
+---
+
 # ADR 005: TanStack Query (v5) による状態管理と楽観的 UI
 
 - Status: Accepted (Q3 Server Components 境界は継続検討)

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 021: ECS タスク定義のイメージタグ管理戦略"
+---
+
 # ADR 021: ECS タスク定義のイメージタグ管理戦略
 
 - Status: Accepted

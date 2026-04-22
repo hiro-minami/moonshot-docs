@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 007: ユーザーID設計と Clerk → Aurora 同期方式"
+---
+
 # ADR 007: ユーザーID設計と Clerk → Aurora 同期方式
 
 - Status: Accepted

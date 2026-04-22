@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 014: Hono RPC クライアントによる型安全な API 呼び出し"
+---
+
 # ADR 014: Hono RPC クライアントによる型安全な API 呼び出し
 
 - Status: Accepted

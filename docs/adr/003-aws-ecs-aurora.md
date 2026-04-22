@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 003: インフラストラクチャの AWS 一元管理 (ECS Fargate + Aurora)"
+---
+
 # ADR 003: インフラストラクチャの AWS 一元管理 (ECS Fargate + Aurora)
 
 - Status: Accepted

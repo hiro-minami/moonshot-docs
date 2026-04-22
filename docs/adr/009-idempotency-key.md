@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 009: Idempotency-Key の保存先 (PostgreSQL UNLOGGED TABLE)"
+---
+
 # ADR 009: Idempotency-Key の保存先 (PostgreSQL UNLOGGED TABLE)
 
 - Status: Accepted

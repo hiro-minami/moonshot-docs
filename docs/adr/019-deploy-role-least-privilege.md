@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 019: Deploy ロールの最小権限化戦略"
+---
+
 # ADR 019: Deploy ロールの最小権限化戦略
 
 - Status: Proposed

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 002: Hono と Clean Architecture (手動DI) の採用"
+---
+
 # ADR 002: Hono と Clean Architecture (手動DI) の採用
 
 - Status: Accepted

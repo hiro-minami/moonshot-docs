@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 016: Playwright による E2E テストの採用"
+---
+
 # ADR 016: Playwright による E2E テストの採用
 
 - Status: Accepted

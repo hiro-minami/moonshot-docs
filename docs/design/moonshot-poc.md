@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Design Doc: Moonshot (PoC)"
+---
+
 # Design Doc: Moonshot (PoC)
 
 - Status: PoC In Progress

@@ -4,8 +4,11 @@ theme: minima
 baseurl: /moonshot-docs
 url: https://hiro-minami.github.io
 
+header_pages:
+  - adr/README.md
+  - design/moonshot-poc.md
+
 exclude:
-  - _config.yml
   - postgresql-patterns.md
   - terraform-troubleshooting.md
   - next-phase-plan.md

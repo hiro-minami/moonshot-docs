@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 004: Clerk による認証基盤の採用"
+---
+
 # ADR 004: Clerk による認証基盤の採用
 
 - Status: Accepted

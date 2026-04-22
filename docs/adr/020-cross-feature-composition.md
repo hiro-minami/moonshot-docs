@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 020: Feature 間コンポーネント合成のパターン"
+---
+
 # ADR 020: Feature 間コンポーネント合成のパターン
 
 - Status: Accepted

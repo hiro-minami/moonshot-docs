@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 008: 論理削除戦略 (Read 時カスケード)"
+---
+
 # ADR 008: 論理削除戦略 (Read 時カスケード)
 
 - Status: Accepted

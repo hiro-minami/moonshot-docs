@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 017: GitHub Actions CI パイプラインの採用"
+---
+
 # ADR 017: GitHub Actions CI パイプラインの採用
 
 - Status: Accepted

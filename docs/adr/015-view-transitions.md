@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 015: View Transitions API によるページ遷移アニメーション"
+---
+
 # ADR 015: View Transitions API によるページ遷移アニメーション
 
 - Status: Accepted

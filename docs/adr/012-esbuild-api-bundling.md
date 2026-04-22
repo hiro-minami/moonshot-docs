@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 012: esbuild による API バンドルビルド"
+---
+
 # ADR 012: esbuild による API バンドルビルド
 
 - Status: Accepted

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ADR 011: 環境変数アクセスパターン"
+---
+
 # ADR 011: 環境変数アクセスパターン
 
 - Status: Proposed
