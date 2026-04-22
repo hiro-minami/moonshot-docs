@@ -1,0 +1,25 @@
+---
+title: Architecture Decision Records (ADR)
+description: Moonshot プロジェクトの技術選定・設計判断の記録
+---
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+技術選定・設計判断を記録する ADR 集です。サイドバーから各 ADR を参照できます。
+
+## ADR 記述フォーマット
+
+各 ADR は以下のセクションを必須とする:
+
+- **Status**: Proposed / Accepted / Deprecated / Superseded by ADR XXX
+- **Date**: 決定日
+- **Deciders**: 意思決定者
+- **Context**: 背景・制約
+- **Decision**: 決定内容
+- **Alternatives Considered**: 検討した代替案と却下理由
+- **Consequences**: 結果 (Positive / Negative)
+
+## 運用ルール
+
+- ADR は不変記録: 一度 Accepted になった ADR は原則書き換えず、方針変更時は新しい ADR で置き換え
+- Design Doc は生きた文書: プロジェクトの現状を反映して継続的に更新

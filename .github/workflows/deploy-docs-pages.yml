@@ -3,11 +3,9 @@ name: Deploy Docs to GitHub Pages
 on:
   push:
     branches: [main]
-    paths:
-      - "src/**"
-      - "astro.config.mjs"
-      - "package.json"
-      - ".github/workflows/deploy-docs-pages.yml"
+  repository_dispatch:
+    types: [docs-updated]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -32,6 +30,9 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
+
+      - name: Sync docs from moonshot
+        run: bash scripts/sync-docs.sh
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
