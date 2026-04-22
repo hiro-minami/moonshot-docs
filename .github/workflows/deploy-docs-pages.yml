@@ -33,6 +33,8 @@ jobs:
 
       - name: Sync docs from moonshot
         run: bash scripts/sync-docs.sh
+        env:
+          MOONSHOT_TOKEN: ${{ secrets.MOONSHOT_TOKEN }}
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile

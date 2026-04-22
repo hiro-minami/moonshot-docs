@@ -4,9 +4,16 @@ set -euo pipefail
 # Sync docs from moonshot main repo to Starlight content directory
 # Usage: ./scripts/sync-docs.sh
 
-REPO_URL="https://github.com/hiro-minami/moonshot.git"
+REPO="hiro-minami/moonshot"
 TEMP_DIR=$(mktemp -d)
 CONTENT_DIR="src/content/docs"
+
+# Use token auth for private repo when available
+if [[ -n "${MOONSHOT_TOKEN:-}" ]]; then
+  REPO_URL="https://x-access-token:${MOONSHOT_TOKEN}@github.com/${REPO}.git"
+else
+  REPO_URL="https://github.com/${REPO}.git"
+fi
 
 echo "📥 Cloning moonshot docs..."
 git clone --depth 1 --filter=blob:none --sparse "$REPO_URL" "$TEMP_DIR"
